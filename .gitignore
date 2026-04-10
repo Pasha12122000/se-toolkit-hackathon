@@ -6,4 +6,4 @@ dist/
 coverage/
 __pycache__/
 *.pyc
-
+*.egg-info/
