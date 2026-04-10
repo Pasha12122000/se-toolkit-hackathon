@@ -1,0 +1,2220 @@
+[
+  {
+    "id": "breakfast-mexican",
+    "name_ru": "Мексиканский завтрак",
+    "name_en": "Mexican Breakfast",
+    "category": "Завтраки",
+    "category_ru": "Завтраки",
+    "category_en": "Breakfast",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 390,
+    "description_ru": "Тортилья, сыр, халапеньо, томат черри, фасоль красная, микс салата и соус греческий.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": true,
+    "keywords": [
+      "завтрак",
+      "тортилья",
+      "фасоль"
+    ]
+  },
+  {
+    "id": "breakfast-english",
+    "name_ru": "Английский завтрак",
+    "name_en": "English Breakfast",
+    "category": "Завтраки",
+    "category_ru": "Завтраки",
+    "category_en": "Breakfast",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 390,
+    "description_ru": "Глазунья, сосиски, лук зелёный, черри и вафли.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "завтрак",
+      "сосиски",
+      "яйца"
+    ]
+  },
+  {
+    "id": "breakfast-classic",
+    "name_ru": "Классический завтрак",
+    "name_en": "Classic Breakfast",
+    "category": "Завтраки",
+    "category_ru": "Завтраки",
+    "category_en": "Breakfast",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 390,
+    "description_ru": "Омлет с сосиской и сыром.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "завтрак",
+      "омлет",
+      "сыр"
+    ]
+  },
+  {
+    "id": "waffles-sweet",
+    "name_ru": "Сладкие вафли с творогом/с мороженым",
+    "name_en": "Sweet Waffles with Cottage Cheese / Ice Cream",
+    "category": "Завтраки",
+    "category_ru": "Завтраки",
+    "category_en": "Breakfast",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 300,
+    "description_ru": "Сладкие вафли с творогом или мороженым.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": true,
+    "keywords": [
+      "вафли",
+      "сладкое",
+      "десерт"
+    ]
+  },
+  {
+    "id": "pizza-bbq-chicken",
+    "name_ru": "Закрытая пицца Курица BBQ",
+    "name_en": "Closed Pizza Chicken BBQ",
+    "category": "Пицца",
+    "category_ru": "Пицца",
+    "category_en": "Pizza",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Сыр, курица, соус барбекю, томаты и соус белый.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "пицца",
+      "bbq",
+      "курица"
+    ]
+  },
+  {
+    "id": "pizza-pepperoni",
+    "name_ru": "Закрытая пицца Пепперони",
+    "name_en": "Closed Pizza Pepperoni",
+    "category": "Пицца",
+    "category_ru": "Пицца",
+    "category_en": "Pizza",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Сыр, колбаски пепперони, соус белый, томаты и маринованный лук.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": true,
+    "keywords": [
+      "пицца",
+      "пепперони"
+    ]
+  },
+  {
+    "id": "pizza-homestyle",
+    "name_ru": "Закрытая пицца Домашняя",
+    "name_en": "Closed Pizza Homemade",
+    "category": "Пицца",
+    "category_ru": "Пицца",
+    "category_en": "Pizza",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Сыр, курица, соус белый, томаты, маринованный лук и огурец.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "пицца",
+      "домашняя",
+      "грибы"
+    ]
+  },
+  {
+    "id": "pizza-meat",
+    "name_ru": "Закрытая пицца Мясная",
+    "name_en": "Closed Pizza Meat Lovers",
+    "category": "Пицца",
+    "category_ru": "Пицца",
+    "category_en": "Pizza",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Сыр, курица, соус белый, колбаса и грибы.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "пицца",
+      "мясная"
+    ]
+  },
+  {
+    "id": "pizza-cheese",
+    "name_ru": "Закрытая пицца Сырная",
+    "name_en": "Closed Pizza Cheese",
+    "category": "Пицца",
+    "category_ru": "Пицца",
+    "category_en": "Pizza",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Двойной сыр, курица, томаты и соус белый.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "пицца",
+      "сырная",
+      "сыр"
+    ]
+  },
+  {
+    "id": "street-bbq-burger",
+    "name_ru": "BBQ Бургер",
+    "name_en": "BBQ Burger",
+    "category": "Стритфуд",
+    "category_ru": "Бургеры",
+    "category_en": "Burgers",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 490,
+    "description_ru": "Классический бургер с говяжьим бифштексом и фирменным BBQ-соусом.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": true,
+    "keywords": [
+      "бургер",
+      "bbq",
+      "говядина"
+    ]
+  },
+  {
+    "id": "street-chicken-burger",
+    "name_ru": "Чикен Бургер",
+    "name_en": "Chicken Burger",
+    "category": "Стритфуд",
+    "category_ru": "Бургеры",
+    "category_en": "Burgers",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 390,
+    "description_ru": "Бургер с рваной курицей и соусом карри.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "бургер",
+      "курица"
+    ]
+  },
+  {
+    "id": "street-pesto-burger",
+    "name_ru": "Песто Бургер",
+    "name_en": "Pesto Burger",
+    "category": "Стритфуд",
+    "category_ru": "Бургеры",
+    "category_en": "Burgers",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 590,
+    "description_ru": "Классический бургер, подаётся с соусами и картофелем фри.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "бургер",
+      "песто",
+      "фри"
+    ]
+  },
+  {
+    "id": "street-merida-gyros",
+    "name_ru": "Мерида Гирос",
+    "name_en": "Merida Gyros",
+    "category": "Стритфуд",
+    "category_ru": "Бургеры",
+    "category_en": "Burgers",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 490,
+    "description_ru": "Курица, фри, помидоры, огурцы, соус, капуста и булочка.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "гирос",
+      "курица",
+      "стритфуд"
+    ]
+  },
+  {
+    "id": "snack-fries",
+    "name_ru": "Картофель фри",
+    "name_en": "French Fries",
+    "category": "Снеки",
+    "category_ru": "Снеки",
+    "category_en": "Snacks",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 180,
+    "description_ru": "Хрустящий картофель фри.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "фри",
+      "картофель"
+    ]
+  },
+  {
+    "id": "snack-country-potato",
+    "name_ru": "Картофель по-деревенски",
+    "name_en": "Country-Style Potato",
+    "category": "Снеки",
+    "category_ru": "Снеки",
+    "category_en": "Snacks",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 180,
+    "description_ru": "Картофельные дольки с румяной корочкой.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "картофель",
+      "дольки"
+    ]
+  },
+  {
+    "id": "snack-wings",
+    "name_ru": "Крылышки",
+    "name_en": "Chicken Wings",
+    "category": "Снеки",
+    "category_ru": "Снеки",
+    "category_en": "Snacks",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 360,
+    "description_ru": "Куриные крылышки с насыщенным вкусом.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": true,
+    "keywords": [
+      "курица",
+      "крылышки"
+    ]
+  },
+  {
+    "id": "snack-cheese-sticks",
+    "name_ru": "Сырные палочки",
+    "name_en": "Cheese Sticks",
+    "category": "Снеки",
+    "category_ru": "Снеки",
+    "category_en": "Snacks",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 290,
+    "description_ru": "Тёплые сырные палочки в панировке.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "сыр",
+      "палочки"
+    ]
+  },
+  {
+    "id": "snack-nuggets",
+    "name_ru": "Наггетсы",
+    "name_en": "Nuggets",
+    "category": "Снеки",
+    "category_ru": "Снеки",
+    "category_en": "Snacks",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 290,
+    "description_ru": "Классические куриные наггетсы.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "наггетсы",
+      "курица"
+    ]
+  },
+  {
+    "id": "snack-onion-rings",
+    "name_ru": "Луковые кольца",
+    "name_en": "Onion Rings",
+    "category": "Снеки",
+    "category_ru": "Снеки",
+    "category_en": "Snacks",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 220,
+    "description_ru": "Луковые кольца в хрустящей панировке.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "лук",
+      "кольца"
+    ]
+  },
+  {
+    "id": "hot-rice",
+    "name_ru": "Жареный рис с курицей",
+    "name_en": "Fried Rice with Chicken",
+    "category": "Горячее",
+    "category_ru": "Супы и горячее",
+    "category_en": "Hot and Soups",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 290,
+    "description_ru": "Жареный рис с курицей.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "рис",
+      "курица",
+      "горячее"
+    ]
+  },
+  {
+    "id": "hot-carbonara",
+    "name_ru": "Карбонара с курицей",
+    "name_en": "Carbonara with Chicken",
+    "category": "Горячее",
+    "category_ru": "Супы и горячее",
+    "category_en": "Hot and Soups",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 290,
+    "description_ru": "Карбонара с курицей.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "паста",
+      "карбонара"
+    ]
+  },
+  {
+    "id": "hot-teriyaki",
+    "name_ru": "Терияки, курица в кляре",
+    "name_en": "Teriyaki Chicken in Batter",
+    "category": "Горячее",
+    "category_ru": "Супы и горячее",
+    "category_en": "Hot and Soups",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 290,
+    "description_ru": "Курица в кляре.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "терияки",
+      "курица"
+    ]
+  },
+  {
+    "id": "hot-tom-yam-pasta",
+    "name_ru": "Том-ям паста с курицей",
+    "name_en": "Tom Yum Pasta with Chicken",
+    "category": "Горячее",
+    "category_ru": "Супы и горячее",
+    "category_en": "Hot and Soups",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 290,
+    "description_ru": "Том-ям паста с курицей.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "том-ям",
+      "паста"
+    ]
+  },
+  {
+    "id": "hot-tom-yam-rice",
+    "name_ru": "Том-ям рис с курицей",
+    "name_en": "Tom Yum Rice with Chicken",
+    "category": "Горячее",
+    "category_ru": "Супы и горячее",
+    "category_en": "Hot and Soups",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 290,
+    "description_ru": "Том-ям рис с курицей.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "том-ям",
+      "рис"
+    ]
+  },
+  {
+    "id": "pasta-creamy",
+    "name_ru": "Паста сливочная",
+    "name_en": "Creamy Pasta",
+    "category": "Горячее",
+    "category_ru": "Супы и горячее",
+    "category_en": "Hot and Soups",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Паста сливочная.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "паста",
+      "сливочная"
+    ]
+  },
+  {
+    "id": "pasta-creamy-shrimp",
+    "name_ru": "Паста сливочная с креветкой",
+    "name_en": "Creamy Pasta with Shrimp",
+    "category": "Горячее",
+    "category_ru": "Супы и горячее",
+    "category_en": "Hot and Soups",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Паста сливочная с креветкой.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": true,
+    "keywords": [
+      "паста",
+      "креветка"
+    ]
+  },
+  {
+    "id": "pasta-chicken-mushrooms",
+    "name_ru": "Паста курица и грибы",
+    "name_en": "Pasta with Chicken and Mushrooms",
+    "category": "Горячее",
+    "category_ru": "Супы и горячее",
+    "category_en": "Hot and Soups",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Паста курица и грибы.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "паста",
+      "грибы",
+      "курица"
+    ]
+  },
+  {
+    "id": "pasta-ham",
+    "name_ru": "Паста с ветчиной",
+    "name_en": "Pasta with Ham",
+    "category": "Горячее",
+    "category_ru": "Супы и горячее",
+    "category_en": "Hot and Soups",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Паста с ветчиной.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "паста",
+      "ветчина"
+    ]
+  },
+  {
+    "id": "poke-shrimp",
+    "name_ru": "Поке с креветкой",
+    "name_en": "Shrimp Poke",
+    "category": "Поке",
+    "category_ru": "Поке",
+    "category_en": "Poke",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 390,
+    "description_ru": "Поке с креветкой.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": true,
+    "keywords": [
+      "поке",
+      "креветка"
+    ]
+  },
+  {
+    "id": "poke-salmon",
+    "name_ru": "Поке с лососем",
+    "name_en": "Salmon Poke",
+    "category": "Поке",
+    "category_ru": "Поке",
+    "category_en": "Poke",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 390,
+    "description_ru": "Поке с лососем.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "поке",
+      "лосось"
+    ]
+  },
+  {
+    "id": "poke-tuna",
+    "name_ru": "Поке с тунцом",
+    "name_en": "Tuna Poke",
+    "category": "Поке",
+    "category_ru": "Поке",
+    "category_en": "Poke",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 390,
+    "description_ru": "Поке с тунцом.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "поке",
+      "тунец"
+    ]
+  },
+  {
+    "id": "wok-shrimp-vegetables",
+    "name_ru": "Вок с креветкой и овощами",
+    "name_en": "Wok with Shrimp and Vegetables",
+    "category": "Вок",
+    "category_ru": "Вок",
+    "category_en": "Wok",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Вок с креветкой и овощами.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "вок",
+      "креветка"
+    ]
+  },
+  {
+    "id": "wok-chicken-vegetables",
+    "name_ru": "Вок с курицей и овощами",
+    "name_en": "Wok with Chicken and Vegetables",
+    "category": "Вок",
+    "category_ru": "Вок",
+    "category_en": "Wok",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 330,
+    "description_ru": "Вок с курицей и овощами.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "вок",
+      "курица"
+    ]
+  },
+  {
+    "id": "salad-greek",
+    "name_ru": "Греческий",
+    "name_en": "Greek Salad",
+    "category": "Салаты",
+    "category_ru": "Салаты",
+    "category_en": "Salads",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 330,
+    "description_ru": "Классический греческий салат.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "салат",
+      "греческий"
+    ]
+  },
+  {
+    "id": "salad-caesar-shrimp",
+    "name_ru": "Цезарь с креветкой",
+    "name_en": "Caesar Salad with Shrimp",
+    "category": "Салаты",
+    "category_ru": "Салаты",
+    "category_en": "Salads",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 330,
+    "description_ru": "Цезарь с креветкой.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "цезарь",
+      "креветка",
+      "салат"
+    ]
+  },
+  {
+    "id": "salad-caesar-chicken",
+    "name_ru": "Цезарь с курицей",
+    "name_en": "Caesar Salad with Chicken",
+    "category": "Салаты",
+    "category_ru": "Салаты",
+    "category_en": "Salads",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 330,
+    "description_ru": "Цезарь с курицей.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": true,
+    "keywords": [
+      "цезарь",
+      "курица",
+      "салат"
+    ]
+  },
+  {
+    "id": "drink-espresso",
+    "name_ru": "Эспрессо",
+    "name_en": "Espresso",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 180,
+    "description_ru": "60 мл насыщенного эспрессо.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "кофе",
+      "espresso",
+      "эспрессо"
+    ]
+  },
+  {
+    "id": "drink-flat-white",
+    "name_ru": "Флэт Уайт",
+    "name_en": "Flat White",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 200,
+    "description_ru": "Кофейный напиток с мягким молочным вкусом.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "кофе",
+      "flat white"
+    ]
+  },
+  {
+    "id": "drink-americano-m",
+    "name_ru": "Американо M (250 мл)",
+    "name_en": "Americano M (250 ml)",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 200,
+    "description_ru": "Американо объёмом 250 мл.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "кофе",
+      "американо"
+    ]
+  },
+  {
+    "id": "drink-americano-l",
+    "name_ru": "Американо L (350 мл)",
+    "name_en": "Americano L (350 ml)",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 230,
+    "description_ru": "Американо объёмом 350 мл.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "кофе",
+      "американо"
+    ]
+  },
+  {
+    "id": "drink-americano-xl",
+    "name_ru": "Американо XL (400 мл)",
+    "name_en": "Americano XL (400 ml)",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 250,
+    "description_ru": "Американо объёмом 400 мл.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "кофе",
+      "американо"
+    ]
+  },
+  {
+    "id": "drink-cappuccino-m",
+    "name_ru": "Капучино M (250 мл)",
+    "name_en": "Cappuccino M (250 ml)",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 200,
+    "description_ru": "Капучино объёмом 250 мл.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "кофе",
+      "капучино"
+    ]
+  },
+  {
+    "id": "drink-cappuccino-l",
+    "name_ru": "Капучино L (350 мл)",
+    "name_en": "Cappuccino L (350 ml)",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 250,
+    "description_ru": "Капучино объёмом 350 мл.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "кофе",
+      "капучино"
+    ]
+  },
+  {
+    "id": "drink-cappuccino-xl",
+    "name_ru": "Капучино XL (400 мл)",
+    "name_en": "Cappuccino XL (400 ml)",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 300,
+    "description_ru": "Капучино объёмом 400 мл.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "кофе",
+      "капучино"
+    ]
+  },
+  {
+    "id": "drink-latte-m",
+    "name_ru": "Латте M (250 мл)",
+    "name_en": "Latte M (250 ml)",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 200,
+    "description_ru": "Латте объёмом 250 мл.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": true,
+    "keywords": [
+      "кофе",
+      "латте"
+    ]
+  },
+  {
+    "id": "drink-latte-l",
+    "name_ru": "Латте L (350 мл)",
+    "name_en": "Latte L (350 ml)",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 250,
+    "description_ru": "Латте объёмом 350 мл.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "кофе",
+      "латте"
+    ]
+  },
+  {
+    "id": "drink-latte-xl",
+    "name_ru": "Латте XL (400 мл)",
+    "name_en": "Latte XL (400 ml)",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 300,
+    "description_ru": "Латте объёмом 400 мл.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "кофе",
+      "латте"
+    ]
+  },
+  {
+    "id": "drink-raf-m",
+    "name_ru": "Раф M (250 мл)",
+    "name_en": "Raf M (250 ml)",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 230,
+    "description_ru": "Раф объёмом 250 мл.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "кофе",
+      "раф"
+    ]
+  },
+  {
+    "id": "drink-raf-l",
+    "name_ru": "Раф L (350 мл)",
+    "name_en": "Raf L (350 ml)",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 280,
+    "description_ru": "Раф объёмом 350 мл.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "кофе",
+      "раф"
+    ]
+  },
+  {
+    "id": "drink-raf-xl",
+    "name_ru": "Раф XL (400 мл)",
+    "name_en": "Raf XL (400 ml)",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 330,
+    "description_ru": "Раф объёмом 400 мл.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "кофе",
+      "раф"
+    ]
+  },
+  {
+    "id": "drink-syrup",
+    "name_ru": "Сироп",
+    "name_en": "Syrup",
+    "category": "Напитки",
+    "category_ru": "Кофе",
+    "category_en": "Coffee",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 40,
+    "description_ru": "Сиропы в ассортименте для кофейных напитков.",
+    "description_en": "Coffee and signature drinks of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "сироп",
+      "добавка"
+    ]
+  },
+  {
+    "id": "tea-classic-m",
+    "name_ru": "Классический чай M (250 мл)",
+    "name_en": "Classic Tea M (250 ml)",
+    "category": "Чай",
+    "category_ru": "Чай",
+    "category_en": "Tea",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 50,
+    "description_ru": "Чёрный, зелёный, молочный улун или намасте.",
+    "description_en": "Tea menu of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "чай",
+      "чёрный",
+      "зелёный",
+      "улун"
+    ]
+  },
+  {
+    "id": "tea-classic-l",
+    "name_ru": "Классический чай L (350 мл)",
+    "name_en": "Classic Tea L (350 ml)",
+    "category": "Чай",
+    "category_ru": "Чай",
+    "category_en": "Tea",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 90,
+    "description_ru": "Чёрный, зелёный, молочный улун или намасте.",
+    "description_en": "Tea menu of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "чай",
+      "чёрный",
+      "зелёный",
+      "улун"
+    ]
+  },
+  {
+    "id": "tea-classic-xl",
+    "name_ru": "Классический чай XL (400 мл)",
+    "name_en": "Classic Tea XL (400 ml)",
+    "category": "Чай",
+    "category_ru": "Чай",
+    "category_en": "Tea",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 120,
+    "description_ru": "Чёрный, зелёный, молочный улун или намасте.",
+    "description_en": "Tea menu of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "чай",
+      "чёрный",
+      "зелёный",
+      "улун"
+    ]
+  },
+  {
+    "id": "tea-signature-m",
+    "name_ru": "Авторский чай M (250 мл)",
+    "name_en": "Signature Tea M (250 ml)",
+    "category": "Чай",
+    "category_ru": "Чай",
+    "category_en": "Tea",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 170,
+    "description_ru": "Вкус на выбор: черника-лаванда, груша-банан, манго-маракуйя или апельсин-имбирь.",
+    "description_en": "Tea menu of Happiness Cafe.",
+    "is_popular": true,
+    "keywords": [
+      "чай",
+      "авторский"
+    ]
+  },
+  {
+    "id": "tea-signature-l",
+    "name_ru": "Авторский чай L (350 мл)",
+    "name_en": "Signature Tea L (350 ml)",
+    "category": "Чай",
+    "category_ru": "Чай",
+    "category_en": "Tea",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 200,
+    "description_ru": "Вкус на выбор: черника-лаванда, груша-банан, манго-маракуйя или апельсин-имбирь.",
+    "description_en": "Tea menu of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "чай",
+      "авторский"
+    ]
+  },
+  {
+    "id": "tea-signature-xl",
+    "name_ru": "Авторский чай XL (400 мл)",
+    "name_en": "Signature Tea XL (400 ml)",
+    "category": "Чай",
+    "category_ru": "Чай",
+    "category_en": "Tea",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 230,
+    "description_ru": "Вкус на выбор: черника-лаванда, груша-банан, манго-маракуйя или апельсин-имбирь.",
+    "description_en": "Tea menu of Happiness Cafe.",
+    "is_popular": false,
+    "keywords": [
+      "чай",
+      "авторский"
+    ]
+  },
+  {
+    "id": "seasonal-mulled",
+    "name_ru": "Глинтвейн",
+    "name_en": "Mulled Drink",
+    "category": "Осеннее меню",
+    "category_ru": "Сезонные",
+    "category_en": "Seasonal",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 299,
+    "description_ru": "Согревающий напиток с корицей, бадьяном и гвоздикой.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": true,
+    "keywords": [
+      "осень",
+      "горячее",
+      "глинтвейн"
+    ]
+  },
+  {
+    "id": "seasonal-apple-grog",
+    "name_ru": "Яблочный грог",
+    "name_en": "Apple Grog",
+    "category": "Осеннее меню",
+    "category_ru": "Сезонные",
+    "category_en": "Seasonal",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 299,
+    "description_ru": "Пряный уют с бузиной и специями.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "осень",
+      "грог",
+      "яблоко"
+    ]
+  },
+  {
+    "id": "seasonal-pumpkin-latte",
+    "name_ru": "Латте-тыква",
+    "name_en": "Pumpkin Latte",
+    "category": "Осеннее меню",
+    "category_ru": "Сезонные",
+    "category_en": "Seasonal",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 299,
+    "description_ru": "Нежный латте с ярким сладким акцентом тыквы.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "осень",
+      "латте",
+      "тыква"
+    ]
+  },
+  {
+    "id": "seasonal-maple-cappuccino",
+    "name_ru": "Кленовый капучино",
+    "name_en": "Maple Cappuccino",
+    "category": "Осеннее меню",
+    "category_ru": "Сезонные",
+    "category_en": "Seasonal",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 299,
+    "description_ru": "Бархатный капучино с мягкой сладостью клена.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "осень",
+      "капучино",
+      "клен"
+    ]
+  },
+  {
+    "id": "seasonal-pomegranate-bumble",
+    "name_ru": "Гранатовый горячий бамбл",
+    "name_en": "Hot Pomegranate Bumble",
+    "category": "Осеннее меню",
+    "category_ru": "Сезонные",
+    "category_en": "Seasonal",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 329,
+    "description_ru": "Гранатовый сок в дуэте с бодрящим эспрессо.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "осень",
+      "бамбл",
+      "гранат"
+    ]
+  },
+  {
+    "id": "seasonal-cherry-bumble",
+    "name_ru": "Вишнёвый горячий бамбл",
+    "name_en": "Hot Cherry Bumble",
+    "category": "Осеннее меню",
+    "category_ru": "Сезонные",
+    "category_en": "Seasonal",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 279,
+    "description_ru": "Сочная вишня и эспрессо в необычном горячем сочетании.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "осень",
+      "бамбл",
+      "вишня"
+    ]
+  },
+  {
+    "id": "seasonal-cocoa-marshmallow",
+    "name_ru": "Какао с маршмеллоу",
+    "name_en": "Cocoa with Marshmallow",
+    "category": "Осеннее меню",
+    "category_ru": "Сезонные",
+    "category_en": "Seasonal",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 239,
+    "description_ru": "Нежное какао с тающими маршмеллоу.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "осень",
+      "какао",
+      "маршмеллоу"
+    ]
+  },
+  {
+    "id": "fresh-ice-latte-caramel",
+    "name_ru": "Айс Латте Карамель",
+    "name_en": "Iced Latte Caramel",
+    "category": "Fresh Happiness",
+    "category_ru": "Фреш-бар",
+    "category_en": "Cold Bar",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 299,
+    "description_ru": "Освежающая классика с бархатной сладостью карамели.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "айс латте",
+      "карамель",
+      "холодный кофе"
+    ]
+  },
+  {
+    "id": "fresh-ice-latte-blueberry",
+    "name_ru": "Айс Латте Черника Лаванда",
+    "name_en": "Iced Latte Blueberry Lavender",
+    "category": "Fresh Happiness",
+    "category_ru": "Фреш-бар",
+    "category_en": "Cold Bar",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 299,
+    "description_ru": "Охлаждающий латте с черникой и тонкими нотками лаванды.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "айс латте",
+      "черника",
+      "лаванда",
+      "холодный кофе"
+    ]
+  },
+  {
+    "id": "fresh-bumble-apple",
+    "name_ru": "Бамбл Apple",
+    "name_en": "Apple Bumble",
+    "category": "Fresh Happiness",
+    "category_ru": "Фреш-бар",
+    "category_en": "Cold Bar",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 249,
+    "description_ru": "Зелёное яблоко, лаванда и шот бодрящего эспрессо.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "бамбл",
+      "яблоко",
+      "холодный кофе"
+    ]
+  },
+  {
+    "id": "fresh-bumble-orange",
+    "name_ru": "Бамбл Orange",
+    "name_en": "Orange Bumble",
+    "category": "Fresh Happiness",
+    "category_ru": "Фреш-бар",
+    "category_en": "Cold Bar",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 249,
+    "description_ru": "Эспрессо, яркий апельсин и экзотика маракуйи.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "бамбл",
+      "апельсин",
+      "маракуйя",
+      "холодный кофе"
+    ]
+  },
+  {
+    "id": "fresh-strawberry-boom",
+    "name_ru": "Клубничный бум",
+    "name_en": "Strawberry Boom",
+    "category": "Fresh Happiness",
+    "category_ru": "Фреш-бар",
+    "category_en": "Cold Bar",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 299,
+    "description_ru": "Нежный молочный коктейль с ярким вкусом клубничного мороженого.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": true,
+    "keywords": [
+      "молочный коктейль",
+      "клубника"
+    ]
+  },
+  {
+    "id": "fresh-bubble-lemonade",
+    "name_ru": "Bubble Lemonade",
+    "name_en": "Bubble Lemonade",
+    "category": "Fresh Happiness",
+    "category_ru": "Фреш-бар",
+    "category_en": "Cold Bar",
+    "section_id": "drinks",
+    "section_ru": "Напитки",
+    "section_en": "Drinks",
+    "price_rub": 249,
+    "description_ru": "Тропический лимонад с манго, маракуйей и джус боллами.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "лимонад",
+      "bubble",
+      "манго",
+      "маракуйя"
+    ]
+  },
+  {
+    "id": "shawarma-classic-m",
+    "name_ru": "Классическая M",
+    "name_en": "Classic Shawarma M",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 300,
+    "description_ru": "Лаваш, курица, томаты, огурцы, салат капустный и белый соус.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "классическая"
+    ]
+  },
+  {
+    "id": "shawarma-classic-xl",
+    "name_ru": "Классическая XL",
+    "name_en": "Classic Shawarma XL",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Лаваш, курица, томаты, огурцы, салат капустный и белый соус.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "классическая"
+    ]
+  },
+  {
+    "id": "shawarma-cheese-m",
+    "name_ru": "Сырная M",
+    "name_en": "Cheese Shawarma M",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 300,
+    "description_ru": "Сырный лаваш, сыр, сырный соус, курица, томаты и айсберг.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "сырная"
+    ]
+  },
+  {
+    "id": "shawarma-cheese-xl",
+    "name_ru": "Сырная XL",
+    "name_en": "Cheese Shawarma XL",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 360,
+    "description_ru": "Сырный лаваш, сыр, сырный соус, курица, томаты и айсберг.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "сырная"
+    ]
+  },
+  {
+    "id": "shawarma-forest-m",
+    "name_ru": "Лесная M",
+    "name_en": "Forest Shawarma M",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 300,
+    "description_ru": "Лаваш, белый соус, грибы, айсберг, курица и жареный лук.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "грибы",
+      "лесная"
+    ]
+  },
+  {
+    "id": "shawarma-forest-xl",
+    "name_ru": "Лесная XL",
+    "name_en": "Forest Shawarma XL",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 360,
+    "description_ru": "Лаваш, белый соус, грибы, айсберг, курица и жареный лук.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "грибы",
+      "лесная"
+    ]
+  },
+  {
+    "id": "shawarma-lebanese-m",
+    "name_ru": "Ливанская M",
+    "name_en": "Lebanese Shawarma M",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Лаваш, сыр, капуста, фри, курица, маринованные огурцы, томаты и белый соус.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "ливанская"
+    ]
+  },
+  {
+    "id": "shawarma-lebanese-xl",
+    "name_ru": "Ливанская XL",
+    "name_en": "Lebanese Shawarma XL",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 390,
+    "description_ru": "Лаваш, сыр, капуста, фри, курица, маринованные огурцы, томаты и белый соус.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "ливанская"
+    ]
+  },
+  {
+    "id": "shawarma-summer-m",
+    "name_ru": "Летняя M",
+    "name_en": "Summer Shawarma M",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 300,
+    "description_ru": "Лаваш, айсберг, соус барбекю, томаты, огурцы и курица.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "летняя"
+    ]
+  },
+  {
+    "id": "shawarma-summer-xl",
+    "name_ru": "Летняя XL",
+    "name_en": "Summer Shawarma XL",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 360,
+    "description_ru": "Лаваш, айсберг, соус барбекю, томаты, огурцы и курица.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "летняя"
+    ]
+  },
+  {
+    "id": "shawarma-italian-m",
+    "name_ru": "Итальянская M",
+    "name_en": "Italian Shawarma M",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 300,
+    "description_ru": "Лаваш, томаты, сыр, курица, соус песто и салат айсберг.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "итальянская",
+      "песто"
+    ]
+  },
+  {
+    "id": "shawarma-italian-xl",
+    "name_ru": "Итальянская XL",
+    "name_en": "Italian Shawarma XL",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 360,
+    "description_ru": "Лаваш, томаты, сыр, курица, соус песто и салат айсберг.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "итальянская",
+      "песто"
+    ]
+  },
+  {
+    "id": "shawarma-bavarian-m",
+    "name_ru": "Баварская M",
+    "name_en": "Bavarian Shawarma M",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Лаваш, белый соус, пепперони, сыр, курица, жареный лук и горчичный соус.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "баварская",
+      "пепперони"
+    ]
+  },
+  {
+    "id": "shawarma-bavarian-xl",
+    "name_ru": "Баварская XL",
+    "name_en": "Bavarian Shawarma XL",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 390,
+    "description_ru": "Лаваш, белый соус, пепперони, сыр, курица, жареный лук и горчичный соус.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "баварская",
+      "пепперони"
+    ]
+  },
+  {
+    "id": "shawarma-vegetarian-m",
+    "name_ru": "Вегетарианская M",
+    "name_en": "Vegetarian Shawarma M",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 250,
+    "description_ru": "Лаваш, фалафель, огурцы, томаты, салат айсберг и белый соус.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "вегетарианская",
+      "фалафель"
+    ]
+  },
+  {
+    "id": "shawarma-vegetarian-xl",
+    "name_ru": "Вегетарианская XL",
+    "name_en": "Vegetarian Shawarma XL",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 300,
+    "description_ru": "Лаваш, фалафель, огурцы, томаты, салат айсберг и белый соус.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "вегетарианская",
+      "фалафель"
+    ]
+  },
+  {
+    "id": "shawarma-mexican-m",
+    "name_ru": "Мексиканская M",
+    "name_en": "Mexican Shawarma M",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Сырный лаваш, капуста, фасоль, курица, лук, маринованные огурцы, белый соус и шрирача.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": true,
+    "keywords": [
+      "шаурма",
+      "мексиканская",
+      "острая"
+    ]
+  },
+  {
+    "id": "shawarma-mexican-xl",
+    "name_ru": "Мексиканская XL",
+    "name_en": "Mexican Shawarma XL",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 390,
+    "description_ru": "Сырный лаваш, капуста, фасоль, курица, лук, маринованные огурцы, белый соус и шрирача.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "мексиканская",
+      "острая"
+    ]
+  },
+  {
+    "id": "shawarma-big-boss-m",
+    "name_ru": "Биг Босс M",
+    "name_en": "Big Boss Shawarma M",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 350,
+    "description_ru": "Лаваш, курица, наггетсы, капуста, соус, маринованные огурцы и помидоры.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "биг босс",
+      "наггетсы"
+    ]
+  },
+  {
+    "id": "shawarma-big-boss-xl",
+    "name_ru": "Биг Босс XL",
+    "name_en": "Big Boss Shawarma XL",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 390,
+    "description_ru": "Лаваш, курица, наггетсы, капуста, соус, маринованные огурцы и помидоры.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "биг босс",
+      "наггетсы"
+    ]
+  },
+  {
+    "id": "shawarma-caucasian-xl",
+    "name_ru": "Кавказская XL",
+    "name_en": "Caucasian Shawarma XL",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 550,
+    "description_ru": "Лаваш, белый соус, сыр, гранат, микс зелени, лук и люля-кебаб.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "кавказская",
+      "люля"
+    ]
+  },
+  {
+    "id": "shawarma-big-tasty-xl",
+    "name_ru": "Биг Тейсти XL",
+    "name_en": "Big Tasty Shawarma XL",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 550,
+    "description_ru": "Лаваш, белый соус, люля-кебаб, лук, капуста, томаты, огурцы и острый соус.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "биг тейсти",
+      "люля"
+    ]
+  },
+  {
+    "id": "shawarma-heavy-lux-xl",
+    "name_ru": "Тяжёлый люкс XL",
+    "name_en": "Heavy Lux Shawarma XL",
+    "category": "Шаурма",
+    "category_ru": "Шаурма",
+    "category_en": "Shawarma",
+    "section_id": "food",
+    "section_ru": "Еда",
+    "section_en": "Food",
+    "price_rub": 550,
+    "description_ru": "Лаваш, белый соус, огурцы, помидоры, капуста, сыр, курица, грибы, фри, жареный лук и халапеньо.",
+    "description_en": "A popular street-food item from the cafe menu.",
+    "is_popular": false,
+    "keywords": [
+      "шаурма",
+      "люкс",
+      "большая"
+    ]
+  },
+  {
+    "id": "roll-hot-salmon-shrimp",
+    "name_ru": "Горячие роллы с лососем и креветкой",
+    "name_en": "Hot Rolls with Salmon and Shrimp",
+    "category": "Роллы",
+    "category_ru": "Роллы",
+    "category_en": "Rolls",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 450,
+    "description_ru": "Горячие роллы с лососем, креветкой и сыром.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "роллы",
+      "горячие",
+      "лосось",
+      "креветка"
+    ]
+  },
+  {
+    "id": "roll-hot-eel-smoked-salmon",
+    "name_ru": "Горячие роллы с угрём, копчёным лососем и тунцом",
+    "name_en": "Hot Rolls with Eel, Smoked Salmon and Tuna",
+    "category": "Роллы",
+    "category_ru": "Роллы",
+    "category_en": "Rolls",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 450,
+    "description_ru": "Роллы с угрём, копчёным лососем и тунцом.",
+    "description_en": "See the Russian menu card for the full composition.",
+    "is_popular": false,
+    "keywords": [
+      "роллы",
+      "горячие",
+      "угорь",
+      "тунец"
+    ]
+  },
+  {
+    "id": "set-43",
+    "name_ru": "Сет-43",
+    "name_en": "Set 43",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 1750,
+    "description_ru": "Филадельфия с угрём, запечённые с сыром, горячие с креветкой и мини с тунцом, 900 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "сет",
+      "ассорти"
+    ]
+  },
+  {
+    "id": "set-baked-gold",
+    "name_ru": "Ассорти Запечённый голд",
+    "name_en": "Baked Gold Set",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 1800,
+    "description_ru": "Запечённые роллы с лососем, крабом, окунем и кальмаром, 1000 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "ассорти",
+      "запечённый"
+    ]
+  },
+  {
+    "id": "set-35",
+    "name_ru": "Сет Запечённый 35",
+    "name_en": "Baked Set 35",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 1800,
+    "description_ru": "Запечённый с тунцом, окунем и креветкой, с лососем и курицей, 1000 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "сет",
+      "запечённый"
+    ]
+  },
+  {
+    "id": "set-jasmine",
+    "name_ru": "Ассорти Жасмин",
+    "name_en": "Jasmine Set",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 1800,
+    "description_ru": "Запечённый с лососем и кунжутом, горячий с курицей, филадельфия люкс и мини с огурцом, 900 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "ассорти",
+      "жасмин"
+    ]
+  },
+  {
+    "id": "set-festive",
+    "name_ru": "Ассорти Праздничное",
+    "name_en": "Festive Set",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 1900,
+    "description_ru": "Королевская филадельфия, запечённый с угрём и лососем, 2x суши с мидиями и другие роллы, 1000 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "ассорти",
+      "праздничное"
+    ]
+  },
+  {
+    "id": "set-lovers",
+    "name_ru": "Ассорти Для влюблённых",
+    "name_en": "Lovers Set",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 1900,
+    "description_ru": "Королевская филадельфия, филадельфия с угрём и лососем, мини фишкейк, 900 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": true,
+    "keywords": [
+      "суши",
+      "ассорти",
+      "для влюблённых"
+    ]
+  },
+  {
+    "id": "set-xxl",
+    "name_ru": "Ассорти XXL",
+    "name_en": "XXL Set",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 2000,
+    "description_ru": "Калифорния, калифорния со сливочным лососем, филадельфия, весенний и острый с курицей, 1110 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "ассорти",
+      "xxl"
+    ]
+  },
+  {
+    "id": "set-snow",
+    "name_ru": "Ассорти Снежный",
+    "name_en": "Snow Set",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 2150,
+    "description_ru": "Филадельфия классическая, филадельфия с угрём и лососем, микс ролл, спринг ролл и мини роллы, 1200 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "ассорти",
+      "снежный"
+    ]
+  },
+  {
+    "id": "set-55",
+    "name_ru": "Сет-55",
+    "name_en": "Set 55",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 2250,
+    "description_ru": "Филадельфия Роял, горячие и запечённые роллы с курицей, лососем и тунцом, 1400 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "сет"
+    ]
+  },
+  {
+    "id": "set-sakura",
+    "name_ru": "Сакура",
+    "name_en": "Sakura Set",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 2300,
+    "description_ru": "Филадельфия с копчёным лососем, калифорния, мини лосось и запечённые роллы, 1350 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "ассорти",
+      "сакура"
+    ]
+  },
+  {
+    "id": "set-big-festive",
+    "name_ru": "Ассорти Большой праздничный",
+    "name_en": "Big Festive Set",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 2450,
+    "description_ru": "Королевская филадельфия, калифорния, горячий с курицей и другие роллы, 1400 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "ассорти",
+      "праздничный"
+    ]
+  },
+  {
+    "id": "set-gourmet",
+    "name_ru": "Ассорти Гурман",
+    "name_en": "Gourmet Set",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 2600,
+    "description_ru": "Горячие и запечённые роллы с копчёным лососем, курицей, угрём, креветкой и крабом, 1400 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "ассорти",
+      "гурман"
+    ]
+  },
+  {
+    "id": "set-dragon",
+    "name_ru": "Ассорти Дракон",
+    "name_en": "Dragon Set",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 2850,
+    "description_ru": "Канада, филадельфия, королевская филадельфия, калифорния и горячие роллы, 1500 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "ассорти",
+      "дракон"
+    ]
+  },
+  {
+    "id": "set-company",
+    "name_ru": "Ассорти Для большой компании",
+    "name_en": "Big Company Set",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 3000,
+    "description_ru": "Большой набор роллов с лососем, мидиями, курицей и морепродуктами, 2100 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "ассорти",
+      "компания"
+    ]
+  },
+  {
+    "id": "set-big-mix",
+    "name_ru": "Ассорти Большой микс",
+    "name_en": "Big Mix Set",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 3100,
+    "description_ru": "Запечённые, горячие и мини роллы с лососем, окунем и курицей, 1900 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "ассорти",
+      "микс"
+    ]
+  },
+  {
+    "id": "set-54",
+    "name_ru": "Сет-54",
+    "name_en": "Set 54",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 3150,
+    "description_ru": "Королевская филадельфия, микс ролл, запечённые и горячие роллы, мини с лососем и огурцом, 1840 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "сет"
+    ]
+  },
+  {
+    "id": "set-noor-2",
+    "name_ru": "Запечённый сет Нур-2",
+    "name_en": "Baked Set Noor-2",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 3350,
+    "description_ru": "Аляска, Канада, фьюжн с креветкой и большой запечённый набор, 2000 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "сет",
+      "нур"
+    ]
+  },
+  {
+    "id": "set-noor-1",
+    "name_ru": "Ассорти Нур-1",
+    "name_en": "Set Noor-1",
+    "category": "Ассорти",
+    "category_ru": "Сеты",
+    "category_en": "Sets",
+    "section_id": "sushi",
+    "section_ru": "Суши и роллы",
+    "section_en": "Sushi and Rolls",
+    "price_rub": 3600,
+    "description_ru": "Цезарь, острая курица, Канада, горячий с угрём и другие роллы, 2000 г.",
+    "description_en": "A sushi set from the Happiness menu.",
+    "is_popular": false,
+    "keywords": [
+      "суши",
+      "ассорти",
+      "нур"
+    ]
+  }
+]

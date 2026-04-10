@@ -1,0 +1,18 @@
+[
+  {
+    "username": "owner",
+    "password": "owner123",
+    "full_name": "Pashmak",
+    "title_ru": "Владелец",
+    "title_en": "Owner",
+    "role": "owner"
+  },
+  {
+    "username": "worker1",
+    "password": "worker123",
+    "full_name": "Иван Иванов",
+    "title_ru": "Бариста",
+    "title_en": "Barista",
+    "role": "worker"
+  }
+]

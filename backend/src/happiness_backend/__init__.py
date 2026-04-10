@@ -1,0 +1,2 @@
+"""Happiness Menu backend package."""
+
