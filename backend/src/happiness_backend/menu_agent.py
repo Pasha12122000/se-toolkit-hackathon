@@ -40,6 +40,9 @@ def answer_menu_question(question: str, locale: str, items: list[dict]) -> dict:
 def _extract_intent(question: str) -> MenuIntent:
     normalized = question.casefold().replace("ё", "е")
     words = _extract_words(normalized)
+    word_variants = set(words)
+    for word in words:
+        word_variants.update(_word_variants(word))
     budget_max, budget_min = _extract_budget(normalized)
     sections: set[str] = set()
     categories: set[str] = set()
@@ -81,12 +84,12 @@ def _extract_intent(question: str) -> MenuIntent:
         "sets": {"set", "sets", "ассорти", "сет", "сеты"},
     }
 
-    for word in words:
+    for variant in word_variants:
         for section, aliases in section_aliases.items():
-            if word in aliases:
+            if variant in aliases:
                 sections.add(section)
         for category, aliases in category_aliases.items():
-            if word in aliases:
+            if variant in aliases:
                 categories.add(category)
 
     if categories & {"coffee", "tea", "cold bar", "seasonal"}:
@@ -148,6 +151,19 @@ def _extract_words(normalized_question: str) -> list[str]:
     return re.findall(r"[a-zA-Zа-яА-Я]+", normalized_question)
 
 
+def _word_variants(word: str) -> set[str]:
+    variants = {word}
+    for suffix in ("ами", "ями", "ого", "ему", "ому", "ыми", "ими", "ов", "ев", "ей", "ой", "ый", "ий", "ая", "яя", "ое", "ее", "ам", "ям", "ах", "ях", "ом", "ем", "а", "я", "ы", "и", "у", "ю", "е"):
+        if word.endswith(suffix) and len(word) - len(suffix) >= 3:
+            stem = word[: -len(suffix)]
+            variants.add(stem)
+            variants.add(f"{stem}а")
+            variants.add(f"{stem}ы")
+            variants.add(f"{stem}и")
+            variants.add(f"{stem}ов")
+    return variants
+
+
 def _extract_budget(normalized_question: str) -> tuple[int | None, int | None]:
     numbers = [int(match) for match in re.findall(r"\b\d{2,5}\b", normalized_question)]
     sensible_numbers = [number for number in numbers if 50 <= number <= 10000]
@@ -161,12 +177,17 @@ def _extract_budget(normalized_question: str) -> tuple[int | None, int | None]:
 
 
 def _filter_by_price(items: list[dict], intent: MenuIntent) -> list[dict]:
-    filtered = items
+    filtered = [item for item in items if not _is_low_value_addon(item)]
     if intent.budget_max is not None:
         filtered = [item for item in filtered if item["price_rub"] <= intent.budget_max]
     if intent.budget_min is not None:
         filtered = [item for item in filtered if item["price_rub"] >= intent.budget_min]
     return filtered
+
+
+def _is_low_value_addon(item: dict) -> bool:
+    haystack = _item_haystack(item)
+    return item["price_rub"] < 80 and any(addon in haystack for addon in {"сироп", "syrup"})
 
 
 def _score_item(item: dict, intent: MenuIntent) -> int:
@@ -297,10 +318,10 @@ def _category_matches(item: dict, categories: set[str]) -> bool:
     category_matchers = {
         "breakfast": {"breakfast", "завтрак", "завтраки", "омлет", "вафли"},
         "pizza": {"pizza", "пицца"},
-        "burgers": {"burger", "burgers", "бургер", "бургеры", "гирос", "gyros"},
-        "shawarma": {"shawarma", "шаурма", "шаверма"},
-        "snacks": {"snack", "snacks", "снек", "снеки", "фри", "наггетсы", "картошка"},
-        "salads": {"salad", "salads", "салат", "салаты", "цезарь"},
+        "burgers": {"burger", "burgers", "бургер", "бургеры", "бургеров", "гирос", "gyros"},
+        "shawarma": {"shawarma", "шаурма", "шаурмы", "шаверма", "шавермы"},
+        "snacks": {"snack", "snacks", "снек", "снеки", "снеков", "фри", "наггетсы", "картошка"},
+        "salads": {"salad", "salads", "салат", "салаты", "салатов", "цезарь"},
         "hot and soups": {"soup", "soups", "hot", "суп", "супы", "горячее"},
         "poke": {"poke", "поке"},
         "wok": {"wok", "вок", "лапша"},
