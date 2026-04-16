@@ -164,6 +164,8 @@ def fetch_items(category: str, locale: str, settings: Settings) -> list[dict]:
             f"""
             SELECT
                 id,
+                category,
+                section_id,
                 {name} AS name,
                 {description} AS description,
                 price_rub,
@@ -210,7 +212,8 @@ def fetch_agent_menu_items(locale: str, settings: Settings) -> list[dict]:
                 price_rub,
                 {category_label} AS category_label,
                 {section_label} AS section_label,
-                is_popular
+                is_popular,
+                keywords
             FROM menu_items
             ORDER BY is_popular DESC, price_rub ASC
             """
