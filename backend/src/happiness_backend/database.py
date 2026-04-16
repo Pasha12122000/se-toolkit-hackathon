@@ -195,6 +195,29 @@ def fetch_highlights(locale: str, settings: Settings) -> list[dict]:
     return rows
 
 
+def fetch_agent_menu_items(locale: str, settings: Settings) -> list[dict]:
+    name = "name_ru" if locale == "ru" else "name_en"
+    description = "description_ru" if locale == "ru" else "description_en"
+    category_label = "category_ru" if locale == "ru" else "category_en"
+    section_label = "section_ru" if locale == "ru" else "section_en"
+    with get_connection(settings) as conn:
+        rows = conn.execute(
+            f"""
+            SELECT
+                id,
+                {name} AS name,
+                {description} AS description,
+                price_rub,
+                {category_label} AS category_label,
+                {section_label} AS section_label,
+                is_popular
+            FROM menu_items
+            ORDER BY is_popular DESC, price_rub ASC
+            """
+        ).fetchall()
+    return rows
+
+
 def search_items(query: str, locale: str, settings: Settings) -> list[dict]:
     name = "name_ru" if locale == "ru" else "name_en"
     description = "description_ru" if locale == "ru" else "description_en"

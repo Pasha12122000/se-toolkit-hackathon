@@ -38,6 +38,24 @@ class HighlightItem(BaseModel):
     price_rub: int
 
 
+class AgentRequest(BaseModel):
+    question: str = Field(min_length=2)
+    locale: Locale = "ru"
+
+
+class AgentRecommendation(BaseModel):
+    id: str
+    name: str
+    category_label: str
+    price_rub: int
+    reason: str
+
+
+class AgentResponse(BaseModel):
+    answer: str
+    recommendations: list[AgentRecommendation]
+
+
 class AdminLoginRequest(BaseModel):
     username: str
     password: str
@@ -94,4 +112,3 @@ class StaffCreateRequest(BaseModel):
     full_name: str = Field(min_length=2)
     title_ru: str = Field(min_length=2)
     title_en: str = Field(min_length=2)
-

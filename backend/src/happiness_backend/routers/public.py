@@ -1,13 +1,15 @@
 from fastapi import APIRouter, Depends, Query
 
 from happiness_backend.database import (
+    fetch_agent_menu_items,
     fetch_categories,
     fetch_highlights,
     fetch_items,
     fetch_sections,
     search_items,
 )
-from happiness_backend.schemas import CategorySummary, HighlightItem, Locale, MenuItemOut, SectionSummary
+from happiness_backend.menu_agent import answer_menu_question
+from happiness_backend.schemas import AgentRequest, AgentResponse, CategorySummary, HighlightItem, Locale, MenuItemOut, SectionSummary
 from happiness_backend.settings import Settings, get_settings
 
 
@@ -61,3 +63,12 @@ def search_menu_items(
 ) -> list[MenuItemOut]:
     return [MenuItemOut(**row) for row in search_items(q, locale, settings)]
 
+
+@router.post("/agent/ask", response_model=AgentResponse)
+def ask_menu_agent(
+    payload: AgentRequest,
+    settings: Settings = Depends(get_settings),
+) -> AgentResponse:
+    items = fetch_agent_menu_items(payload.locale, settings)
+    response = answer_menu_question(payload.question, payload.locale, items)
+    return AgentResponse(**response)

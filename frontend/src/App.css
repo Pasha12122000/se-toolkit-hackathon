@@ -359,6 +359,30 @@ select {
   grid-template-columns: 1fr;
 }
 
+.agent-panel {
+  grid-column: 1 / -1;
+}
+
+.agent-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: center;
+}
+
+.agent-form .search-input {
+  margin-bottom: 0;
+}
+
+.agent-answer {
+  margin-top: 16px;
+}
+
+.agent-answer p {
+  margin: 0 0 12px;
+  color: #30574f;
+}
+
 .search-card,
 .staff-card,
 .stat-card {
@@ -446,6 +470,10 @@ select {
   .topbar,
   .menu-grid,
   .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .agent-form {
     grid-template-columns: 1fr;
   }
 

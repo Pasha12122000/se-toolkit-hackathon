@@ -15,18 +15,21 @@
 
 ## Slide 3 — Implementation
 
-- Built with FastAPI, PostgreSQL, React, Docker Compose, and Caddy
+- Built with FastAPI, PostgreSQL, React, Docker Compose, Caddy, and a lightweight Menu Assistant Agent
 - Version 1:
   - Public bilingual menu
   - Menu browsing by section and category
+  - Basic menu assistant for quick recommendations
 - Version 2:
   - Staff login
   - Owner and worker roles
   - Add, edit, and remove menu items
   - Owner can manage workers
+  - Agent recommendations based on the live backend menu
 - TA feedback addressed:
   - clearer navigation
   - easier menu editing
+  - explicit agent component
   - deployable product instead of local-only prototype
 
 ## Slide 4 — Demo
@@ -35,6 +38,7 @@
 - Switch language
 - Open Food -> Shawarma
 - Use menu search
+- Ask the Menu Assistant Agent for a recommendation under a budget
 - Open Admin Panel
 - Log in as owner
 - Show adding or editing one menu item
@@ -42,7 +46,6 @@
 
 ## Slide 5 — Links
 
-- GitHub repository: add repo URL
-- Deployed product: add deployment URL
+- GitHub repository: https://github.com/Pasha12122000/se-toolkit-hackathon
+- Deployed product: @HappinessMenuBot
 - Add QR codes for both links
-

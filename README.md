@@ -20,6 +20,7 @@ Implemented:
 - Bilingual public menu in Russian and English
 - Menu browsing by section and category
 - Search across menu items
+- Menu Assistant Agent that recommends items from the live menu by budget and preferences
 - Highlighted popular items
 - FastAPI backend with PostgreSQL
 - React frontend for end users
@@ -44,6 +45,7 @@ Not yet implemented:
 3. Select a section: Food, Drinks, or Sushi and Rolls.
 4. Open a category and browse current positions.
 5. Use the search field to quickly find a specific item.
+6. Ask the Menu Assistant Agent for a recommendation, for example: `what drink can I get under 300 RUB?`.
 
 ### Staff
 
@@ -60,6 +62,20 @@ Demo credentials:
 ## Public Access
 
 - Telegram bot version: `@HappinessMenuBot`
+
+## Agent
+
+The product includes a lightweight Menu Assistant Agent exposed through the backend:
+
+```http
+POST /api/agent/ask
+```
+
+The agent reads the current menu from PostgreSQL through the backend API and recommends relevant items by language, budget, and user preferences. Example questions:
+
+- `what drink can I get under 300 RUB?`
+- `что взять до 300 рублей из напитков?`
+- `recommend something with coffee`
 
 ## Deployment
 

@@ -34,6 +34,19 @@ type HighlightItem = {
   price_rub: number;
 };
 
+type AgentRecommendation = {
+  id: string;
+  name: string;
+  category_label: string;
+  price_rub: number;
+  reason: string;
+};
+
+type AgentResponse = {
+  answer: string;
+  recommendations: AgentRecommendation[];
+};
+
 type AdminProfile = {
   username: string;
   full_name: string;
@@ -132,6 +145,10 @@ const texts = {
     titleRu: "Должность RU",
     titleEn: "Job title EN",
     searchTitle: "Быстрый поиск",
+    agentTitle: "Menu Assistant Agent",
+    agentText: "Спроси агента, что заказать. Он смотрит актуальное меню и подбирает варианты по бюджету и предпочтениям.",
+    agentPlaceholder: "Например: что взять до 300 рублей из напитков?",
+    askAgent: "Спросить агента",
     ready: "Готово",
   },
   en: {
@@ -183,6 +200,10 @@ const texts = {
     titleRu: "Title RU",
     titleEn: "Title EN",
     searchTitle: "Quick search",
+    agentTitle: "Menu Assistant Agent",
+    agentText: "Ask the agent what to order. It checks the live menu and recommends options by budget and preferences.",
+    agentPlaceholder: "Example: what drink can I get under 300 RUB?",
+    askAgent: "Ask agent",
     ready: "Done",
   },
 } as const;
@@ -224,6 +245,9 @@ function App() {
   const [highlights, setHighlights] = useState<HighlightItem[]>([]);
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState<MenuItem[]>([]);
+  const [agentQuestion, setAgentQuestion] = useState("");
+  const [agentResponse, setAgentResponse] = useState<AgentResponse | null>(null);
+  const [agentLoading, setAgentLoading] = useState(false);
   const [loading, setLoading] = useState(true);
   const [adminOpen, setAdminOpen] = useState(false);
   const [adminToken, setAdminToken] = useState(() => localStorage.getItem("happiness_admin_token") ?? "");
@@ -464,6 +488,32 @@ function App() {
       .catch((error: Error) => setFeedback(error.message));
   }
 
+  function handleAskAgent(event: FormEvent) {
+    event.preventDefault();
+    const question = agentQuestion.trim();
+    if (!question) return;
+
+    setAgentLoading(true);
+    fetch("/api/agent/ask", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ question, locale }),
+    })
+      .then(async (res) => {
+        const payload = await res.json();
+        if (!res.ok) throw new Error(payload.detail ?? "Agent failed");
+        return payload as AgentResponse;
+      })
+      .then((payload) => setAgentResponse(payload))
+      .catch((error: Error) =>
+        setAgentResponse({
+          answer: error.message,
+          recommendations: [],
+        }),
+      )
+      .finally(() => setAgentLoading(false));
+  }
+
   return (
     <div className="page-shell">
       <div className="background-glow background-glow-left" />
@@ -594,6 +644,38 @@ function App() {
                 ))}
               </div>
             )}
+          </article>
+
+          <article className="panel agent-panel">
+            <h2>{t.agentTitle}</h2>
+            <p className="muted-text">{t.agentText}</p>
+            <form className="agent-form" onSubmit={handleAskAgent}>
+              <input
+                className="search-input"
+                value={agentQuestion}
+                onChange={(event) => setAgentQuestion(event.target.value)}
+                placeholder={t.agentPlaceholder}
+              />
+              <button className="primary-button" type="submit" disabled={agentLoading}>
+                {agentLoading ? "..." : t.askAgent}
+              </button>
+            </form>
+            {agentResponse ? (
+              <div className="agent-answer">
+                <p>{agentResponse.answer}</p>
+                <div className="search-results">
+                  {agentResponse.recommendations.map((item) => (
+                    <article key={item.id} className="search-card">
+                      <strong>{item.name}</strong>
+                      <span>{item.category_label}</span>
+                      <small>
+                        {item.price_rub} RUB • {item.reason}
+                      </small>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            ) : null}
           </article>
         </section>
       </main>
